@@ -1,24 +1,14 @@
-# README
+<h1>SoBlog<h1>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To start the application launch a terminal session, find the soblog directory and follow the commands below:
 
-Things you may want to cover:
+•	cd soblog 
+•	Rails server
+•	Open chrome 
+•	Go to  http://localhost:3000/articles 
 
-* Ruby version
+<h2>Full Instructions </h2>
+Review the file called SoBlog
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<h2>Feedback </h2>
+To review the assignment feedback review the file called EndaMcVey Feedback
