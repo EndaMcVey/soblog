@@ -1,0 +1,245 @@
+
+
+.navbar-text > a { color: inherit; text-decoration: none; }
+
+
+
+table, th, td {
+   border: 1px solid black;
+}
+
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+table {
+  border: 1px solid black;
+}
+
+header,
+footer {
+  padding: 1em;
+  color: white;
+  background-color: black;
+  clear: left;
+  text-align: center;
+}
+
+inbox {
+  float: left;
+  margin: 0;
+  padding: 1em;
+}
+
+inbox ul {
+  list-style-type: none;
+  padding: 10%;
+}
+
+inbox ul a {
+  text-decoration: none;
+}
+
+article {
+  margin-left: 25%;
+  border-left: 100% solid gray;
+  margin-top: 3%;
+  padding: 1em;
+  overflow: hidden;
+}
+articlein{
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #FFF;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+
+
+}
+
+tr:hover {
+  background-color: #005EB8;
+  color: white;
+  cursor: pointer;
+}
+
+.tr {
+  border: 0 solid #0000;
+}
+
+table td.first {
+  display: none;
+}
+/* Navbar Menu */
+/* Navbar Colour */
+.navbar-default { background-color: #005EB8; border-color: #63666A; color: #ffffff; }
+/* Logo and the Header */
+.text-align img { width: 95px; height: 95px; }
+/* Navbar Brand colour */
+.navbar-default .navbar-brand { color: #ffffff; }
+/* Navbar Menu */
+.navbar-default .navbar-nav { padding: 20px; }
+/* Navbar Brand Hover colour */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus { color: #ffffff; background-color: transparent; }
+/* Navbar Menu colour */
+.navbar-default .navbar-nav > li > a { color: #ffffff; }
+/* Navbar Menu Hover colour */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus { color: #ffffff; background-color: transparent; text-decoration: underline;}
+/* Navbar Menu Select colour */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus { color: #ffffff; background-color: transparent; text-decoration: underline;}
+/* Navbar Drop-down list Menu colour */
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus { color: #ffffff; background-color: transparent; text-decoration: underline;}
+
+/* Profile */
+.row { padding-top: 6%; padding-bottom: 5px; }
+
+.row .thumbnail { border-radius:50%; width:300px; height:300px; background-color: #f8f8f8; border-width: 3px; border-color: #B1B3B3; display: block; margin: auto;}
+
+.row .thumbnail:hover { border-color: #B1B3B3; border-width: 3px;}
+
+.row .thumbnail img { width: 100%; height: 100%; }
+
+.row .text-center p { font-size: 15px; text-align:justify; padding-left: 12%;}
+
+.row .btn-default { background-color: #005EB8; border: hidden; border-width: 3px; border-radius: 50%; width:60px; height:60px; display: block; margin: auto; margin-top: 20px;}
+
+.row .btn-default:hover { transform: scale(1.1); background-color: #005EB8; border: #63666A; border-width: 3px; border-radius: 50%;}
+
+.page-header { text-align: justify;}
+
+.MsoNormal {font-size: 18px; text-align: justify; padding-left: 25px; padding-right: 25px;}
+
+#white-font{ color: white; }
+
+/*Form CSS- https://www.w3schools.com/css/css_form.asp
+
+/*Form*/
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+select {
+    width: 15%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+
+input {
+
+    border: none;
+
+    background-color: #f1f1f1;
+}
+input[type=text], input[type=password] {
+    width: 45%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+
+
+
+table {
+  border: 1px solid black;
+}
+
+header,
+footer {
+  padding: 1em;
+  color: white;
+  background-color: black;
+  clear: left;
+  text-align: center;
+}
+
+inbox {
+  float: left;
+  max-width: 25%;
+  margin: 0;
+  padding: 1em;
+}
+
+inbox ul {
+  list-style-type: none;
+  padding: 10;
+}
+
+inbox ul a {
+  text-decoration: none;
+}
+
+article {
+  margin-left: 25%;
+  border-left: 1px solid gray;
+  margin-top: 3%;
+  padding: 1em;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+tr:hover {
+  background-color: #005EB8;
+  color: white;
+  cursor: pointer;
+}
+
+.tr {
+  border: 1 solid #0000;
+}
+
+table td.first {
+  display: none;
+}
+.vertical-menu {
+    width: 200px; /* Set a width if you like */
+}
+
+.vertical-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50; /* Add a green color to the "active/current" link */
+    color: white;
+}
