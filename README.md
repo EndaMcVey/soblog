@@ -1,4 +1,4 @@
-<h1>SoBlog<h1>
+<h1>SoBlog</h1>
 
 To start the application launch a terminal session, find the soblog directory and follow the commands below:
 
