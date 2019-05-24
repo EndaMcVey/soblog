@@ -8,7 +8,7 @@ To start the application launch a terminal session, find the soblog directory an
 •	Go to  http://localhost:3000/articles 
 
 <h2>Full Instructions </h2>
-Review the file called SoBlog
+Review the file called Enda McVey–SOBLOG.zip
 
 <h2>Feedback </h2>
 To review the assignment feedback review the file called EndaMcVey Feedback
